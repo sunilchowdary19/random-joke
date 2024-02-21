@@ -16,7 +16,7 @@ const getJoke = () => {
 
 // const getJoke = async () => {
 //     try {
-//         const response = await fetch('https://reqres.in/api/users/');
+//         const response = await fetch(url);
 //         const data = await response.json();
 //         const randomIndex = Math.floor(Math.random() * data.data.length);
 //         const randomEmail = data.data[randomIndex].email;
